@@ -338,6 +338,7 @@ html{
     border: none;
     color: #fff;
     float: right;
+    margin-top: 16px;
 }
 
 .contact-form .form-submit-btn:hover{

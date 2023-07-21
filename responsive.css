@@ -1,7 +1,48 @@
+/* Tablet & Mobile */
+@media (max-width: 1023px)
+{
+    .place-body .place-buy-btn{
+        width: 100%;
+        padding: 16px 0;
+    }
+
+    .contact-form .form-submit-btn
+    {
+        width: 100%;
+    }
+
+}
+
+/* Tablet */
+@media (min-width:740px) and (max-width: 1023px)
+{
+    #footer i
+    {
+        font-size: 32px !important;
+        margin: 0 16px;
+    }
+
+    #footer p.author{
+        font-size: 24px;
+        margin-top: 48px;
+    }
+
+    #footer a{
+        font-size: 24px;
+        margin-top: 48px;
+        padding: 16px 0;
+    }
+
+}
 
 /* Mobile */
 @media (max-width: 740px)
 {
+    .mobile-col{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
     #header{
         overflow: hidden;
     }
@@ -41,4 +82,19 @@
     #nav>li:first-child{
         display: inline-block;
     }
+
+
+    #content .member-img{
+        width: 229.45px;
+    }
+
+    .contact-form .form-submit-btn{
+        padding: 16px 0;
+        margin-top: 32px;
+    }
+
+    .contact-form .form-control.message-form{
+        margin-top: -8px;
+    }
+
 }

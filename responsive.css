@@ -1,5 +1,5 @@
 /* Tablet & Mobile */
-@media (max-width: 1023px)
+@media (max-width: 63.9375em)
 {
     .place-body .place-buy-btn{
         width: 100%;
@@ -11,10 +11,14 @@
         width: 100%;
     }
 
+    #nav>li:first-child>a:hover{
+        background-color: #000;
+        color: #fff;
+    }
 }
 
 /* Tablet */
-@media (min-width:740px) and (max-width: 1023px)
+@media (min-width:46.25em) and (max-width: 63.9375em)
 {
     #footer i
     {
@@ -36,7 +40,7 @@
 }
 
 /* Mobile */
-@media (max-width: 740px)
+@media (max-width: 46.1875em)
 {
     .mobile-col{
         width: 100%;

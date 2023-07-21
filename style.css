@@ -150,7 +150,7 @@ html{
 #slider{
     margin-top: 46.5px;
     padding-top: 50%;
-    background: url('https://www.w3schools.com/w3images/ny.jpg') top center / cover no-repeat;
+    background: url('../img/NewYork.jpg') top center / contain no-repeat;
     position: relative;
 }
 
@@ -160,6 +160,7 @@ html{
     transform: translateX(-50%);
     bottom: 0;
     padding: 32px 16px;
+    text-shadow: 0 0 1px #000;
 }
 
 #slider .description h3{
@@ -339,6 +340,8 @@ html{
     color: #fff;
     float: right;
     margin-top: 16px;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 .contact-form .form-submit-btn:hover{
